@@ -14,7 +14,7 @@ http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
 			<property name="javax.persistence.jdbc.user" 
 			          value="system"/>
 			<property name="javax.persistence.jdbc.password" 
-			         value="Preetam12345"/>
+			         value="system"/>
 			<property name="javax.persistence.jdbc.driver" 
 			      value="oracle.jdbc.driver.OracleDriver"/>
 			<property name="hibernate.dialect" value="org.hibernate.dialect.OracleDialect"/>
