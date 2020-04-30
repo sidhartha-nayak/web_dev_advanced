@@ -1,4 +1,4 @@
-package com.cg.iter.demo1.2nd;
+package com.cg.iter.lb.1.2;
 
 public class SBU {
 private int sbuId;

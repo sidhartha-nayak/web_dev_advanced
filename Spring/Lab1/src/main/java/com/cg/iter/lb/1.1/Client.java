@@ -1,4 +1,4 @@
-package com.cg.iter.demo1.1st;
+package com.cg.iter.lb.1.1;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

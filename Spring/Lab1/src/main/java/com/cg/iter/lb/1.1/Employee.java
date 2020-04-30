@@ -1,10 +1,10 @@
-package com.cg.iter.demo1.2nd;
+package com.cg.iter.lb.1.1;
 
 public class Employee {
 	private int employeeId;
 	private String employeeName;
 	private double salary;
-	private SBU businessUnit;
+	private String businessUnit;
 	private int age;
 	public int getEmployeeId() {
 		return employeeId;
@@ -18,16 +18,29 @@ public class Employee {
 	public void setEmployeeName(String employeeName) {
 		this.employeeName = employeeName;
 	}
+	public Employee(int employeeId, String employeeName, double salary,
+			String businessUnit, int age) {
+		super();
+		this.employeeId = employeeId;
+		this.employeeName = employeeName;
+		this.salary = salary;
+		this.businessUnit = businessUnit;
+		this.age = age;
+	}
+	public Employee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	public double getSalary() {
 		return salary;
 	}
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
-	public SBU getBusinessUnit() {
+	public String getBusinessUnit() {
 		return businessUnit;
 	}
-	public void setBusinessUnit(SBU businessUnit) {
+	public void setBusinessUnit(String businessUnit) {
 		this.businessUnit = businessUnit;
 	}
 	public int getAge() {
@@ -36,5 +49,4 @@ public class Employee {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	
 }

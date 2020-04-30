@@ -1,4 +1,4 @@
-package com.cg.iter.demo1.4th;
+package com.cg.iter.lb.1.4;
 
 public interface EmployeeService {
 public Employee getDetails(int empId);
